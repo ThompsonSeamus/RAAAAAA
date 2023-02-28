@@ -6,4 +6,75 @@
     android:layout_height="match_parent"
     tools:context=".joe">
 
+    <Switch
+        android:id="@+id/switch9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Switch
+        android:id="@+id/switch7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <Switch
+        android:id="@+id/switch8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="574dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
