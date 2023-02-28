@@ -12,6 +12,11 @@
         android:theme="@style/Theme.RAAAAAA"
         tools:targetApi="31">
         <activity
+            android:name=".joe"
+            android:exported="false"
+            android:label="@string/title_activity_joe"
+            android:theme="@style/Theme.RAAAAAA.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
