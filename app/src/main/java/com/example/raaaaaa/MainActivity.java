@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         fabEvan = this.findViewById(R.id.fabEvan);
         int yoMamaWeightTons = Integer.MAX_VALUE;
 
@@ -42,9 +43,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-        boolean isVisible = false; //??????????nerd-emoji????????
         fabEvan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
