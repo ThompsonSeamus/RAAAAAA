@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/yo_mama_weight_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/yo_mamas_weight"
+        android:textSize="24sp"
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabEvan"
         android:layout_width="wrap_content"
