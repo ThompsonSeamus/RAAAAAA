@@ -49,11 +49,21 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(v.getContext());
-                dialog.setTitle("i think it worked");
-                dialog.setNeutralButton(R.string.fabEvan, new DialogInterface.OnClickListener() {
+                dialog.setTitle("fire whip");
+                dialog.setIcon(R.drawable.fire_whip);
+                dialog.setPositiveButton("fr so fire", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
+                    }
+                });
+                dialog.setNegativeButton("not fire", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        int i = 0;
+                        while(i<1) {
+                            i = i;
+                        }
                     }
                 });
                 dialog.create().show();
