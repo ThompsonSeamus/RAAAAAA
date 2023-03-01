@@ -13,10 +13,10 @@ import android.view.View;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-    Button mamaWeight;
-    boolean displayingHerWeight;
 public class MainActivity extends AppCompatActivity {
     FloatingActionButton fabEvan;
+    Button mamaWeight;
+    boolean displayingHerWeight;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
