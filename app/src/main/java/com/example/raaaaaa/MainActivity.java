@@ -58,10 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 dialog.setNegativeButton("not fire", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        int i = 0;
-                        while(i<1) {
-                            i = i;
-                        }
+
                     }
                 });
                 dialog.create().show();
